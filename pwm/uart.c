@@ -1,14 +1,12 @@
 #include "uart.h"
-#include <stdio.h>
 #define CONF_NUM 0xFF
 
 // FIX THIS FUNCTION
 void on_uart_rx(){
     if(uart_is_readable(UART_ID)) {
         char incoming = uart_getc(UART_ID);
-        printf("UART_IS_WRITABLE %d\n", uart_is_writable(UART_ID));
         if (uart_is_writable(UART_ID)) {
-            uart_putc(UART_ID, CONF_NUM);
+            //uart_putc(UART_ID, CONF_NUM);
         }
     }
 }

@@ -2,7 +2,7 @@ from time import sleep
 import serial
 import serial.tools.list_ports as list_ports
 import argparse
-import sys
+from sys import argv
 
 class PicoPacket:
     def __init__(self):
@@ -32,7 +32,7 @@ def uart_connected():
 
 def init_serial(port=None, baudrate=115200, bytesize=serial.EIGHTBITS, 
                 parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, 
-                timeout=0 ):
+                timeout=None ):
     serial_port = serial.Serial(port, baudrate, bytesize, parity, stopbits, timeout)
     return serial_port
 
@@ -47,11 +47,10 @@ def serial_read(port):
     if trigger is True:
         print(msg)
 
-def serial_write(port):
+def serial_write(port, data):
     if not port.isOpen():
         raise serial.SerialException("Device disconnected before writing.")
-    res = 'hello'.encode('utf-8')
-    port.write(res)
+    port.write(data.encode('utf-8'))
 
 def main():
     """main program"""
@@ -60,6 +59,7 @@ def main():
         usage = "%(prog)s [flags] [keyword]",
         description="Serial communication with RPi Pico",
     )
+    experimental = parser.add_argument_group('experimental arguments')
     parser.add_argument(
         "-p", "--port",
         help="Assign a serial port connection",
@@ -77,20 +77,35 @@ def main():
         help="Set RPM speed",
         dest="rpm",
     )
+    experimental.add_argument(
+        "--bytesize",
+        help="EXPERIMENTAL | Sets size of bits to transfer",
+        dest="bytesize",
+    )
+    experimental.add_argument(
+        "--stopbits",
+        help="EXPERIMENTAL | Sets stopbits parameter",
+        dest="stopbits",
+    )
+    experimental.add_argument(
+        "--parity",
+        help="EXPERIMENTAL | Sets parity bit size",
+        dest="parity",
+    )
+    experimental.add_argument(
+        "--timeout",
+        help="EXPERIMENTAL | Sets timeout",
+        dest="timeout",
+    )
     #opens the port
     #TODO: add serial path as argparse, add optional baud rate parse, etc.
     serial_port = init_serial(port='/dev/ttyUSB0')
-    args = parser.parse_args(sys.argv[1:])
+    args = parser.parse_args(argv[1:])
     while True:
         for letter in args.rpm:
-            while not serial_port.writable():
-                continue
-            serial_port.write(letter.encode('utf-8'))
-            sleep(1)
-            if serial_port.in_waiting > 0:
-                returned_value = serial_port.read()
-                print(returned_value)
-            sleep(1)
+            serial_write(serial_port, letter)
+            serial_read(serial_port)
+            sleep(0.5)                      #For readability reasons
     print("Finished sending")
     exit()
 
