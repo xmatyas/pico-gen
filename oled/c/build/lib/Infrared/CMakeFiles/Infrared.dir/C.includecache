@@ -18,13 +18,13 @@ hardware/i2c.h
 hardware/pwm.h
 ../lib/Config/hardware/pwm.h
 
-/home/pi/pico/code/oled-examples/c/lib/Infrared/Infrared.c
+/home/pi/pico/code/oled/c/lib/Infrared/Infrared.c
 Infrared.h
-/home/pi/pico/code/oled-examples/c/lib/Infrared/Infrared.h
+/home/pi/pico/code/oled/c/lib/Infrared/Infrared.h
 
-/home/pi/pico/code/oled-examples/c/lib/Infrared/Infrared.h
+/home/pi/pico/code/oled/c/lib/Infrared/Infrared.h
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/Infrared/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/Infrared/DEV_Config.h
 
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 

@@ -18,25 +18,25 @@ hardware/i2c.h
 hardware/pwm.h
 ../lib/Config/hardware/pwm.h
 
-/home/pi/pico/code/oled-examples/c/lib/OLED/OLED_1in3_c.c
+/home/pi/pico/code/oled/c/lib/OLED/OLED_1in3_c.c
 OLED_1in3_c.h
-/home/pi/pico/code/oled-examples/c/lib/OLED/OLED_1in3_c.h
+/home/pi/pico/code/oled/c/lib/OLED/OLED_1in3_c.h
 stdio.h
-/home/pi/pico/code/oled-examples/c/lib/OLED/stdio.h
+/home/pi/pico/code/oled/c/lib/OLED/stdio.h
 
-/home/pi/pico/code/oled-examples/c/lib/OLED/OLED_1in3_c.h
+/home/pi/pico/code/oled/c/lib/OLED/OLED_1in3_c.h
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/OLED/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/OLED/DEV_Config.h
 
-/home/pi/pico/code/oled-examples/c/lib/OLED/OLED_2in23.c
+/home/pi/pico/code/oled/c/lib/OLED/OLED_2in23.c
 OLED_2in23.h
-/home/pi/pico/code/oled-examples/c/lib/OLED/OLED_2in23.h
+/home/pi/pico/code/oled/c/lib/OLED/OLED_2in23.h
 stdio.h
-/home/pi/pico/code/oled-examples/c/lib/OLED/stdio.h
+/home/pi/pico/code/oled/c/lib/OLED/stdio.h
 
-/home/pi/pico/code/oled-examples/c/lib/OLED/OLED_2in23.h
+/home/pi/pico/code/oled/c/lib/OLED/OLED_2in23.h
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/OLED/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/OLED/DEV_Config.h
 
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 

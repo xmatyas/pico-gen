@@ -26,23 +26,35 @@ int main(){
     pwm_setup(PWM_PIN,freq);
     const uint slice = pwm_gpio_to_slice_num(PWM_PIN);
     const uint count_top = calculate_level(freq);
-
+    uint16_t fan_rpm = 200;
+    char fan_rpm_str[17];
+    sprintf(fan_rpm_str,"%hu",fan_rpm);
     //ADC SETUP
     adc_setup(ADC_PIN);
     //UART SETUP
     uart_data uart_data_curr = {UART_ID, BAUD_RATE, DATA_BITS, STOP_BITS, PARITY};
     uart_pins uart_pins_curr = {UART_TX_PIN, UART_RX_PIN};
+    uart_setup(uart_data_curr, uart_pins_curr);
+    uart_irq_setup(uart_data_curr);
+    char inp_c;
+    uint16_t rpm = 0;
+    //uart_set_fifo_enabled(UART_ID, true);
     ///////////////
     while(1){
-
         gpio_put(LED_PIN, 1);
         sleep_ms(500);
         gpio_put(LED_PIN, 0);
         sleep_ms(500);
+        //uart_puts(UART_ID, fan_rpm_str);
+        /*
+        if(uart_is_readable(UART_ID)){
+            inp_c = uart_getc(UART_ID);        //BLOCKED AT THIS STAGE 
+            printf("Char %c and Int %d and CharToInt %d\n",inp_c,inp_c, inp_c -'0');
+            uart_putc(UART_ID, inp_c);
+            gpio_put(LED_PIN, 1);
+        }
+        */
         
-        uart_setup(uart_data_curr, uart_pins_curr);
-        uart_irq_setup(uart_data_curr);
-        uart_puts(UART_ID, "UART debug funguje.");
         
         /*
         //ADC PART

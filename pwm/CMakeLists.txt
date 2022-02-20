@@ -27,7 +27,7 @@ if (TARGET tinyusb_device)
         # create map/bin/hex file etc.
         pico_add_extra_outputs(basic_pwm)
         pico_enable_stdio_usb(basic_pwm 1)
-        pico_enable_stdio_uart(basic_pwm 1)
+        pico_enable_stdio_uart(basic_pwm 0) # prevent printf from recursive loading
 elseif(PICO_ON_DEVICE)
         message(WARNING "not building hello_usb because TinyUSB submodule is not initialized in the SDK")
 endif()

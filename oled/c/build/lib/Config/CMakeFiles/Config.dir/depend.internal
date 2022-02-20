@@ -178,8 +178,8 @@ lib/Config/CMakeFiles/Config.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stand
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 lib/Config/CMakeFiles/Config.dir/DEV_Config.c.obj
- /home/pi/pico/code/oled-examples/c/lib/Config/DEV_Config.c
- /home/pi/pico/code/oled-examples/c/lib/Config/DEV_Config.h
+ /home/pi/pico/code/oled/c/lib/Config/DEV_Config.c
+ /home/pi/pico/code/oled/c/lib/Config/DEV_Config.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

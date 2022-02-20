@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/pico/code/oled-examples/c/lib/Config/DEV_Config.c
+/home/pi/pico/code/oled/c/lib/Config/DEV_Config.c
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/Config/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/Config/DEV_Config.h
 
-/home/pi/pico/code/oled-examples/c/lib/Config/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/Config/DEV_Config.h
 pico/stdlib.h
-/home/pi/pico/code/oled-examples/c/lib/Config/pico/stdlib.h
+/home/pi/pico/code/oled/c/lib/Config/pico/stdlib.h
 hardware/spi.h
-/home/pi/pico/code/oled-examples/c/lib/Config/hardware/spi.h
+/home/pi/pico/code/oled/c/lib/Config/hardware/spi.h
 stdio.h
-/home/pi/pico/code/oled-examples/c/lib/Config/stdio.h
+/home/pi/pico/code/oled/c/lib/Config/stdio.h
 hardware/i2c.h
-/home/pi/pico/code/oled-examples/c/lib/Config/hardware/i2c.h
+/home/pi/pico/code/oled/c/lib/Config/hardware/i2c.h
 hardware/pwm.h
-/home/pi/pico/code/oled-examples/c/lib/Config/hardware/pwm.h
+/home/pi/pico/code/oled/c/lib/Config/hardware/pwm.h
 
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 

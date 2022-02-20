@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/pico/code/oled-examples/c/lib/Infrared
+# Install script for directory: /home/pi/pico/code/oled/c/lib/Infrared
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -40,35 +40,35 @@ DEV_Config.h
 DEV_Config.h
 ../lib/OLED/DEV_Config.h
 
-/home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
+/home/pi/pico/code/oled/c/examples/EPD_Test.h
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/examples/DEV_Config.h
+/home/pi/pico/code/oled/c/examples/DEV_Config.h
 GUI_Paint.h
-/home/pi/pico/code/oled-examples/c/examples/GUI_Paint.h
+/home/pi/pico/code/oled/c/examples/GUI_Paint.h
 ImageData.h
-/home/pi/pico/code/oled-examples/c/examples/ImageData.h
+/home/pi/pico/code/oled/c/examples/ImageData.h
 Debug.h
-/home/pi/pico/code/oled-examples/c/examples/Debug.h
+/home/pi/pico/code/oled/c/examples/Debug.h
 stdlib.h
 -
 Infrared.h
-/home/pi/pico/code/oled-examples/c/examples/Infrared.h
+/home/pi/pico/code/oled/c/examples/Infrared.h
 
-/home/pi/pico/code/oled-examples/c/examples/ImageData.h
+/home/pi/pico/code/oled/c/examples/ImageData.h
 
-/home/pi/pico/code/oled-examples/c/examples/OLED_2in23_test.c
+/home/pi/pico/code/oled/c/examples/OLED_2in23_test.c
 EPD_Test.h
-/home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
+/home/pi/pico/code/oled/c/examples/EPD_Test.h
 OLED_2in23.h
-/home/pi/pico/code/oled-examples/c/examples/OLED_2in23.h
+/home/pi/pico/code/oled/c/examples/OLED_2in23.h
 ImageData.h
-/home/pi/pico/code/oled-examples/c/examples/ImageData.h
+/home/pi/pico/code/oled/c/examples/ImageData.h
 GUI_Paint.h
-/home/pi/pico/code/oled-examples/c/examples/GUI_Paint.h
+/home/pi/pico/code/oled/c/examples/GUI_Paint.h
 hardware/rtc.h
-/home/pi/pico/code/oled-examples/c/examples/hardware/rtc.h
+/home/pi/pico/code/oled/c/examples/hardware/rtc.h
 time.h
-/home/pi/pico/code/oled-examples/c/examples/time.h
+/home/pi/pico/code/oled/c/examples/time.h
 
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 

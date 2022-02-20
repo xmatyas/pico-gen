@@ -612,22 +612,9 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/basic_pwm.dir/flags.make
-CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -640,7 +627,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/res
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -653,7 +640,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/std
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -666,7 +653,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/std
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -679,7 +666,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberr
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -692,7 +679,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberr
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -705,7 +692,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: 
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -718,7 +705,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_contr
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -731,7 +718,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -744,7 +731,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_dev
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -757,7 +744,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_dev
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -770,7 +757,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -783,7 +770,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_dev
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -796,7 +783,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_d
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -809,7 +796,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_dev
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -822,7 +809,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rnd
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -835,7 +822,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_dev
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -848,7 +835,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbt
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -861,7 +848,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vend
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -874,7 +861,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/video/video
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -887,7 +874,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_f
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -900,7 +887,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -913,7 +900,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_us
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -926,7 +913,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/uni
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -939,7 +926,7 @@ CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_flash/fla
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/basic_pwm.dir/flags.make
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1000,7 +987,6 @@ basic_pwm_OBJECTS = \
 "CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
 "CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
 "CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
@@ -1078,7 +1064,6 @@ basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pic
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1107,7 +1092,7 @@ basic_pwm.elf: CMakeFiles/basic_pwm.dir/home/pi/pico/pico-sdk/src/rp2_common/har
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/build.make
 basic_pwm.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 basic_pwm.elf: CMakeFiles/basic_pwm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking CXX executable basic_pwm.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/code/pwm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable basic_pwm.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/basic_pwm.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/pi/pico/code/pwm/build/basic_pwm.elf basic_pwm.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/pi/pico/code/pwm/build/basic_pwm.elf basic_pwm.bin

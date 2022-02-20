@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font12.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj"
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font12CN.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj"
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font16.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj"
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font20.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj"
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font24.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj"
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font24CN.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj"
-  "/home/pi/pico/code/oled-examples/c/lib/Fonts/font8.c" "/home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font12.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font12CN.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font16.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font20.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font24.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font24CN.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj"
+  "/home/pi/pico/code/oled/c/lib/Fonts/font8.c" "/home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

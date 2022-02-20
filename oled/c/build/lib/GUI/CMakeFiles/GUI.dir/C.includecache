@@ -22,17 +22,17 @@ hardware/pwm.h
 stdio.h
 -
 
-/home/pi/pico/code/oled-examples/c/lib/Fonts/fonts.h
+/home/pi/pico/code/oled/c/lib/Fonts/fonts.h
 stdint.h
 -
 
-/home/pi/pico/code/oled-examples/c/lib/GUI/GUI_Paint.c
+/home/pi/pico/code/oled/c/lib/GUI/GUI_Paint.c
 GUI_Paint.h
-/home/pi/pico/code/oled-examples/c/lib/GUI/GUI_Paint.h
+/home/pi/pico/code/oled/c/lib/GUI/GUI_Paint.h
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/GUI/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/GUI/DEV_Config.h
 Debug.h
-/home/pi/pico/code/oled-examples/c/lib/GUI/Debug.h
+/home/pi/pico/code/oled/c/lib/GUI/Debug.h
 stdint.h
 -
 stdlib.h
@@ -42,11 +42,11 @@ string.h
 math.h
 -
 
-/home/pi/pico/code/oled-examples/c/lib/GUI/GUI_Paint.h
+/home/pi/pico/code/oled/c/lib/GUI/GUI_Paint.h
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/GUI/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/GUI/DEV_Config.h
 ../Fonts/fonts.h
-/home/pi/pico/code/oled-examples/c/lib/Fonts/fonts.h
+/home/pi/pico/code/oled/c/lib/Fonts/fonts.h
 
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 

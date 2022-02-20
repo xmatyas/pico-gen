@@ -18,19 +18,19 @@ hardware/i2c.h
 hardware/pwm.h
 ../lib/Config/hardware/pwm.h
 
-/home/pi/pico/code/oled-examples/c/lib/Icm20948/icm20948.c
+/home/pi/pico/code/oled/c/lib/Icm20948/icm20948.c
 icm20948.h
-/home/pi/pico/code/oled-examples/c/lib/Icm20948/icm20948.h
+/home/pi/pico/code/oled/c/lib/Icm20948/icm20948.h
 string.h
 -
 
-/home/pi/pico/code/oled-examples/c/lib/Icm20948/icm20948.h
+/home/pi/pico/code/oled/c/lib/Icm20948/icm20948.h
 stdio.h
 -
 math.h
 -
 DEV_Config.h
-/home/pi/pico/code/oled-examples/c/lib/Icm20948/DEV_Config.h
+/home/pi/pico/code/oled/c/lib/Icm20948/DEV_Config.h
 
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 

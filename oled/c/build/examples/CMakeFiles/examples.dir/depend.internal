@@ -178,8 +178,8 @@ examples/CMakeFiles/examples.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stand
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 examples/CMakeFiles/examples.dir/ImageData.c.obj
- /home/pi/pico/code/oled-examples/c/examples/ImageData.c
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/ImageData.c
+ /home/pi/pico/code/oled/c/examples/ImageData.h
 examples/CMakeFiles/examples.dir/LCD_0in96_test.c.obj
  ../lib/Config/DEV_Config.h
  ../lib/Config/Debug.h
@@ -187,9 +187,9 @@ examples/CMakeFiles/examples.dir/LCD_0in96_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_0in96.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/LCD_0in96_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/LCD_0in96_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -236,9 +236,9 @@ examples/CMakeFiles/examples.dir/LCD_1in14_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_1in14.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/LCD_1in14_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/LCD_1in14_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -285,9 +285,9 @@ examples/CMakeFiles/examples.dir/LCD_1in3_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_1in3.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/LCD_1in3_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/LCD_1in3_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -334,9 +334,9 @@ examples/CMakeFiles/examples.dir/LCD_1in44_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_1in44.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/LCD_1in44_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/LCD_1in44_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -383,9 +383,9 @@ examples/CMakeFiles/examples.dir/LCD_1in8_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_1in8.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/LCD_1in8_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/LCD_1in8_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -432,9 +432,9 @@ examples/CMakeFiles/examples.dir/LCD_2in_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_2in.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/LCD_2in_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/LCD_2in_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -482,9 +482,9 @@ examples/CMakeFiles/examples.dir/OLED_1in3_C_test.c.obj
  ../lib/Infrared/Infrared.h
  ../lib/LCD/LCD_1in14.h
  ../lib/OLED/OLED_1in3_c.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/OLED_1in3_C_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/OLED_1in3_C_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -531,9 +531,9 @@ examples/CMakeFiles/examples.dir/OLED_2in23_test.c.obj
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
  ../lib/OLED/OLED_2in23.h
- /home/pi/pico/code/oled-examples/c/examples/EPD_Test.h
- /home/pi/pico/code/oled-examples/c/examples/ImageData.h
- /home/pi/pico/code/oled-examples/c/examples/OLED_2in23_test.c
+ /home/pi/pico/code/oled/c/examples/EPD_Test.h
+ /home/pi/pico/code/oled/c/examples/ImageData.h
+ /home/pi/pico/code/oled/c/examples/OLED_2in23_test.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

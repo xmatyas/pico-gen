@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/pico/code/oled-examples/c/lib/LCD
+# Install script for directory: /home/pi/pico/code/oled/c/lib/LCD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

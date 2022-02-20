@@ -2239,7 +2239,7 @@ CMakeFiles/main.dir/main.c.obj
  ../lib/Fonts/fonts.h
  ../lib/GUI/GUI_Paint.h
  ../lib/Infrared/Infrared.h
- /home/pi/pico/code/oled-examples/c/main.c
+ /home/pi/pico/code/oled/c/main.c
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

@@ -180,9 +180,9 @@ lib/GUI/CMakeFiles/GUI.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_li
 lib/GUI/CMakeFiles/GUI.dir/GUI_Paint.c.obj
  ../lib/Config/DEV_Config.h
  ../lib/Config/Debug.h
- /home/pi/pico/code/oled-examples/c/lib/Fonts/fonts.h
- /home/pi/pico/code/oled-examples/c/lib/GUI/GUI_Paint.c
- /home/pi/pico/code/oled-examples/c/lib/GUI/GUI_Paint.h
+ /home/pi/pico/code/oled/c/lib/Fonts/fonts.h
+ /home/pi/pico/code/oled/c/lib/GUI/GUI_Paint.c
+ /home/pi/pico/code/oled/c/lib/GUI/GUI_Paint.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

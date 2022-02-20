@@ -1,19 +1,15 @@
 #include "uart.h"
-
-static int chars_rxed = 0;
+#include <stdio.h>
+#define CONF_NUM 0xFF
 
 // FIX THIS FUNCTION
 void on_uart_rx(){
-    while (uart_is_readable(UART_ID)) {
-        uint8_t ch = '*';
-        uart_getc(UART_ID);
-        // Can we send it back?
+    if(uart_is_readable(UART_ID)) {
+        char incoming = uart_getc(UART_ID);
+        printf("UART_IS_WRITABLE %d\n", uart_is_writable(UART_ID));
         if (uart_is_writable(UART_ID)) {
-            // Change it slightly first!
-            ch++;
-            uart_putc(UART_ID, ch);
+            uart_putc(UART_ID, CONF_NUM);
         }
-        chars_rxed++;
     }
 }
 void uart_setup(uart_data info, uart_pins pins){

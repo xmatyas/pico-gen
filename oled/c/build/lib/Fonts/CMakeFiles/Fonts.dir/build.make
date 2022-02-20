@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/pico/code/oled-examples/c
+CMAKE_SOURCE_DIR = /home/pi/pico/code/oled/c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/pico/code/oled-examples/c/build
+CMAKE_BINARY_DIR = /home/pi/pico/code/oled/c/build
 
 # Include any dependencies generated for this target.
 include lib/Fonts/CMakeFiles/Fonts.dir/depend.make
@@ -78,94 +78,94 @@ include lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj: ../lib/Fonts/font12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font12.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font12.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font12.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font12.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font12.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font12.c > CMakeFiles/Fonts.dir/font12.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font12.c > CMakeFiles/Fonts.dir/font12.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font12.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font12.c -o CMakeFiles/Fonts.dir/font12.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font12.c -o CMakeFiles/Fonts.dir/font12.c.s
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj: ../lib/Fonts/font12CN.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font12CN.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font12CN.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font12CN.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font12CN.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font12CN.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font12CN.c > CMakeFiles/Fonts.dir/font12CN.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font12CN.c > CMakeFiles/Fonts.dir/font12CN.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font12CN.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font12CN.c -o CMakeFiles/Fonts.dir/font12CN.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font12CN.c -o CMakeFiles/Fonts.dir/font12CN.c.s
 
 lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj: ../lib/Fonts/font16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font16.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font16.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font16.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font16.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font16.c > CMakeFiles/Fonts.dir/font16.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font16.c > CMakeFiles/Fonts.dir/font16.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font16.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font16.c -o CMakeFiles/Fonts.dir/font16.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font16.c -o CMakeFiles/Fonts.dir/font16.c.s
 
 lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj: ../lib/Fonts/font20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font20.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font20.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font20.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font20.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font20.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font20.c > CMakeFiles/Fonts.dir/font20.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font20.c > CMakeFiles/Fonts.dir/font20.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font20.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font20.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font20.c -o CMakeFiles/Fonts.dir/font20.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font20.c -o CMakeFiles/Fonts.dir/font20.c.s
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj: ../lib/Fonts/font24.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font24.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font24.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font24.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font24.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font24.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font24.c > CMakeFiles/Fonts.dir/font24.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font24.c > CMakeFiles/Fonts.dir/font24.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font24.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font24.c -o CMakeFiles/Fonts.dir/font24.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font24.c -o CMakeFiles/Fonts.dir/font24.c.s
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj: ../lib/Fonts/font24CN.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font24CN.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font24CN.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font24CN.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font24CN.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font24CN.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font24CN.c > CMakeFiles/Fonts.dir/font24CN.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font24CN.c > CMakeFiles/Fonts.dir/font24CN.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font24CN.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font24CN.c -o CMakeFiles/Fonts.dir/font24CN.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font24CN.c -o CMakeFiles/Fonts.dir/font24CN.c.s
 
 lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj: ../lib/Fonts/font8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font8.c.obj -c /home/pi/pico/code/oled-examples/c/lib/Fonts/font8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fonts.dir/font8.c.obj -c /home/pi/pico/code/oled/c/lib/Fonts/font8.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font8.c.i"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled-examples/c/lib/Fonts/font8.c > CMakeFiles/Fonts.dir/font8.c.i
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/code/oled/c/lib/Fonts/font8.c > CMakeFiles/Fonts.dir/font8.c.i
 
 lib/Fonts/CMakeFiles/Fonts.dir/font8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font8.c.s"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled-examples/c/lib/Fonts/font8.c -o CMakeFiles/Fonts.dir/font8.c.s
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/code/oled/c/lib/Fonts/font8.c -o CMakeFiles/Fonts.dir/font8.c.s
 
 # Object files for target Fonts
 Fonts_OBJECTS = \
@@ -189,9 +189,9 @@ lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj
 lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj
 lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/build.make
 lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/code/oled-examples/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libFonts.a"
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && $(CMAKE_COMMAND) -P CMakeFiles/Fonts.dir/cmake_clean_target.cmake
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fonts.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/code/oled/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libFonts.a"
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && $(CMAKE_COMMAND) -P CMakeFiles/Fonts.dir/cmake_clean_target.cmake
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fonts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/Fonts/CMakeFiles/Fonts.dir/build: lib/Fonts/libFonts.a
@@ -199,10 +199,10 @@ lib/Fonts/CMakeFiles/Fonts.dir/build: lib/Fonts/libFonts.a
 .PHONY : lib/Fonts/CMakeFiles/Fonts.dir/build
 
 lib/Fonts/CMakeFiles/Fonts.dir/clean:
-	cd /home/pi/pico/code/oled-examples/c/build/lib/Fonts && $(CMAKE_COMMAND) -P CMakeFiles/Fonts.dir/cmake_clean.cmake
+	cd /home/pi/pico/code/oled/c/build/lib/Fonts && $(CMAKE_COMMAND) -P CMakeFiles/Fonts.dir/cmake_clean.cmake
 .PHONY : lib/Fonts/CMakeFiles/Fonts.dir/clean
 
 lib/Fonts/CMakeFiles/Fonts.dir/depend:
-	cd /home/pi/pico/code/oled-examples/c/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/pico/code/oled-examples/c /home/pi/pico/code/oled-examples/c/lib/Fonts /home/pi/pico/code/oled-examples/c/build /home/pi/pico/code/oled-examples/c/build/lib/Fonts /home/pi/pico/code/oled-examples/c/build/lib/Fonts/CMakeFiles/Fonts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/pico/code/oled/c/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/pico/code/oled/c /home/pi/pico/code/oled/c/lib/Fonts /home/pi/pico/code/oled/c/build /home/pi/pico/code/oled/c/build/lib/Fonts /home/pi/pico/code/oled/c/build/lib/Fonts/CMakeFiles/Fonts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Fonts/CMakeFiles/Fonts.dir/depend
 

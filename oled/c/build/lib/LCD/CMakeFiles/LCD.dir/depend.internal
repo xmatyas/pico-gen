@@ -179,8 +179,8 @@ lib/LCD/CMakeFiles/LCD.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_li
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_0in96.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_0in96.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_0in96.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_0in96.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -222,8 +222,8 @@ lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in14.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in14.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in14.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in14.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -265,8 +265,8 @@ lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in3.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in3.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in3.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in3.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -308,8 +308,8 @@ lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in44.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in44.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in44.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in44.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -351,8 +351,8 @@ lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in54.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in54.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in54.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in54.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -394,8 +394,8 @@ lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in8.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_1in8.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in8.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_1in8.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -437,8 +437,8 @@ lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj
  generated/pico_base/pico/version.h
 lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj
  ../lib/Config/DEV_Config.h
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_2in.c
- /home/pi/pico/code/oled-examples/c/lib/LCD/LCD_2in.h
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_2in.c
+ /home/pi/pico/code/oled/c/lib/LCD/LCD_2in.h
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
