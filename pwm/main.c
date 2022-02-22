@@ -1,5 +1,6 @@
 // DEFAULT C LIBRARIES
 #include <stdio.h>
+#include <stdlib.h>
 // PICO LIBRARIES/SDK
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
@@ -11,6 +12,67 @@
 
 #define PWM_PIN 0
 #define ADC_PIN 26
+
+typedef struct PicoPacket{
+    uint8_t size;
+    char type;
+    int data;
+} PicoPacket;
+
+int int_pow(int base, int exponent){
+    int result = 1;
+    for(exponent; exponent>0; exponent--){
+        result = result * base;
+    }
+    return result;
+}
+
+int data_parse(uint8_t data[], int size){
+    int result = 0;
+    for(int i = size; i >= 0; i--){
+        result += data[i]*int_pow(10,i);
+    }
+    return result;
+}
+
+int validate_packet(PicoPacket rx_packet){
+    if (rx_packet.type == 'r')
+    {
+        return 1;
+    }
+    else if(rx_packet.type == 's')
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
+PicoPacket uart_get_packet(uart_inst_t *uart){
+    if(uart_is_readable(uart)){
+        PicoPacket rx_packet;
+        rx_packet.size = (uint8_t)uart_getc(uart);
+        rx_packet.type = uart_getc(uart);
+        uint8_t temp_a[rx_packet.size];
+        for (size_t i = rx_packet.size - 1; i >= 0; i--)
+        {
+            temp_a[i] = (uint8_t)uart_getc(uart);
+        }
+        rx_packet.data = data_parse(temp_a, rx_packet.size);
+        if(!validate_packet(rx_packet)){
+            exit(0);
+        }
+        return rx_packet;
+    }
+    else{
+        exit(0); //Fix return value for faulty uart read
+    }
+}
+
+
+
 
 int main(){
 
@@ -41,6 +103,14 @@ int main(){
     ///////////////
     while(1){
         //uart_puts(UART_ID, fan_rpm_str);
+        PicoPacket rx_packet = uart_get_packet(UART_ID);
+        printf("Uart package received");
+        char helper_buffer[100];
+        int cx = snprintf(helper_buffer, 100, "Size : %d, Type : %c, Data : %d",rx_packet.size, rx_packet.type, rx_packet.data);
+        if(cx>=0 && cx<100){
+            uart_puts(UART_ID, helper_buffer);
+        }
+        /*
         if(uart_is_readable(UART_ID)){
             inp_c = uart_getc(UART_ID);        //BLOCKED AT THIS STAGE
             printf("Char %c and Int %d and CharToInt %d\n",inp_c,inp_c, inp_c -'0');
@@ -50,9 +120,6 @@ int main(){
             }
         }
         
-        
-        
-        /*
         //ADC PART
         const float conversion_factor = 3.3f / (1 << 12);
         uint16_t result = adc_read();

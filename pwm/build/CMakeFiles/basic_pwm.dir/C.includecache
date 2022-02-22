@@ -17,6 +17,8 @@ hardware/adc.h
 /home/pi/pico/code/pwm/main.c
 stdio.h
 -
+stdlib.h
+-
 pico/stdlib.h
 /home/pi/pico/code/pwm/pico/stdlib.h
 hardware/pwm.h

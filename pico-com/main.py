@@ -5,10 +5,21 @@ import argparse
 from sys import argv
 
 class PicoPacket:
-    def __init__(self):
-        self.header
-        self.type
-        self.data
+    def __init__(self, size: int, type: str, data: int):
+        self._size = size
+        self._type = type
+        self._data = data
+    def get_size(self) -> bytes:
+        return self._size.to_bytes(1, 'big')
+    def get_type(self) -> str:
+        return self._type
+    def get_data(self) -> int:
+        return self._data
+    def get_data_as_bytearray(self) -> bytearray:
+        return bytearray(int_to_list(self._data))
+
+def int_to_list(num: int) -> list[int]:
+    return [int(digit) for digit in str(num)]
 
 def pico_connected():
     ports = list_ports.comports()
@@ -47,10 +58,13 @@ def serial_read(port):
     if trigger is True:
         print(msg)
 
-def serial_write(port, data):
-    if not port.isOpen():
+def serial_write(port, packet):
+    if port.isOpen():
+        port.write(packet.get_size())
+        port.write(packet.get_type().encode('utf-8'))
+        port.write(packet.get_data_as_bytearray())
+    else:
         raise serial.SerialException("Device disconnected before writing.")
-    port.write(data.encode('utf-8'))
 
 def main():
     """main program"""
@@ -101,13 +115,12 @@ def main():
     #TODO: add serial path as argparse, add optional baud rate parse, etc.
     serial_port = init_serial(port='/dev/ttyUSB0')
     args = parser.parse_args(argv[1:])
-    while True:
-        for letter in args.rpm:
-            serial_write(serial_port, letter)
-            serial_read(serial_port)
-            sleep(0.5)                      #For readability reasons
+    outgoingPacket = PicoPacket(len(args.rpm) ,'r', int(args.rpm))
+    print(outgoingPacket.get_size())
+    serial_write(serial_port, outgoingPacket)
+    serial_read(serial_port)
+    sleep(0.5)                      #For readability reasons
     print("Finished sending")
-    exit()
 
 if __name__ == "__main__":
     main()
