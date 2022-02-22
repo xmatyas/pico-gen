@@ -27,10 +27,10 @@ int int_pow(int base, int exponent){
     return result;
 }
 
-int data_parse(uint8_t data[], int size){
+int data_parse(uint8_t data[], uint8_t size){
     int result = 0;
-    for(int i = size; i >= 0; i--){
-        result += data[i]*int_pow(10,i);
+    for(uint8_t i = size; i > 0; i--){
+        result += data[i-1]*int_pow(10,i-1);
     }
     return result;
 }
@@ -54,14 +54,17 @@ PicoPacket uart_get_packet(uart_inst_t *uart){
     if(uart_is_readable(uart)){
         PicoPacket rx_packet;
         rx_packet.size = (uint8_t)uart_getc(uart);
+        printf("Rx_packet.size : %d\n",rx_packet.size);
         rx_packet.type = uart_getc(uart);
+        printf("Rx_packet.type : %c\n",rx_packet.type);
         uint8_t temp_a[rx_packet.size];
-        for (size_t i = rx_packet.size - 1; i >= 0; i--)
+        for (uint8_t i = rx_packet.size; i > 0; i--)        //Weird data type issue that did not end for loop
         {
-            temp_a[i] = (uint8_t)uart_getc(uart);
+            temp_a[i-1] = (uint8_t)uart_getc(uart);
+            printf("temp_a[%d] = %d\n",i-1,temp_a[i-1]);
         }
         rx_packet.data = data_parse(temp_a, rx_packet.size);
-        if(!validate_packet(rx_packet)){
+        if(validate_packet(rx_packet) == 0){
             exit(0);
         }
         return rx_packet;
@@ -70,8 +73,6 @@ PicoPacket uart_get_packet(uart_inst_t *uart){
         exit(0); //Fix return value for faulty uart read
     }
 }
-
-
 
 
 int main(){
@@ -100,16 +101,10 @@ int main(){
     //uart_irq_setup(uart_data_curr);
     char inp_c;
     uint16_t rpm = 0;
+    gpio_put(LED_PIN, 1);
     ///////////////
     while(1){
         //uart_puts(UART_ID, fan_rpm_str);
-        PicoPacket rx_packet = uart_get_packet(UART_ID);
-        printf("Uart package received");
-        char helper_buffer[100];
-        int cx = snprintf(helper_buffer, 100, "Size : %d, Type : %c, Data : %d",rx_packet.size, rx_packet.type, rx_packet.data);
-        if(cx>=0 && cx<100){
-            uart_puts(UART_ID, helper_buffer);
-        }
         /*
         if(uart_is_readable(UART_ID)){
             inp_c = uart_getc(UART_ID);        //BLOCKED AT THIS STAGE
@@ -119,6 +114,19 @@ int main(){
                 uart_putc_raw(UART_ID, inp_c);
             }
         }
+        */
+        if(uart_is_readable(UART_ID)){
+            printf("Uart package beginning\n");
+            uart_putc(UART_ID,'c');
+            PicoPacket rx_packet = uart_get_packet(UART_ID);
+            printf("Uart package received\n");
+            char helper_buffer[100];
+            int cx = snprintf(helper_buffer, 100, "Size : %d, Type : %c, Data : %d\n",rx_packet.size, rx_packet.type, rx_packet.data);
+            if(cx>=0 && cx<100){
+                uart_puts(UART_ID, helper_buffer);
+            }
+        }
+        /*
         
         //ADC PART
         const float conversion_factor = 3.3f / (1 << 12);

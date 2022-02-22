@@ -60,9 +60,13 @@ def serial_read(port):
 
 def serial_write(port, packet):
     if port.isOpen():
+        port.reset_output_buffer()
         port.write(packet.get_size())
+        sleep(0.1)
         port.write(packet.get_type().encode('utf-8'))
-        port.write(packet.get_data_as_bytearray())
+        sleep(0.1)
+        ret = port.write(packet.get_data_as_bytearray())
+        print("Bytearray values written : "+ str(ret))
     else:
         raise serial.SerialException("Device disconnected before writing.")
 
@@ -116,7 +120,6 @@ def main():
     serial_port = init_serial(port='/dev/ttyUSB0')
     args = parser.parse_args(argv[1:])
     outgoingPacket = PicoPacket(len(args.rpm) ,'r', int(args.rpm))
-    print(outgoingPacket.get_size())
     serial_write(serial_port, outgoingPacket)
     serial_read(serial_port)
     sleep(0.5)                      #For readability reasons
