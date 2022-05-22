@@ -5,18 +5,18 @@ import argparse
 from sys import argv
 
 class PicoPacket:
-    def __init__(self, size: int, type: str, data: int):
+    def __init__(self, size: int, type: chr, data: int):
         self._size = size
         self._type = type
         self._data = data
     def get_size(self) -> bytes:
         return self._size.to_bytes(1, 'big')
-    def get_type(self) -> str:
+    def get_type(self) -> chr:
         return self._type
     def get_data(self) -> int:
         return self._data
-    def get_data_as_bytearray(self) -> bytearray:
-        return bytearray(int_to_list(self._data))
+    def get_data_as_array(self) -> bytearray:
+        return int_to_list(self._data)
 
 def int_to_list(num: int) -> list[int]:
     return [int(digit) for digit in str(num)]
@@ -28,9 +28,8 @@ def pico_connected():
         if port.vid == 11914 and port.manufacturer == 'Raspberry Pi' and port.product == 'Pico':
             print('Found Pico device at port /{0}'.format(port.name))
             return True
-        else:
-            print('No device found')
-            return False
+    print('No Raspberry Pi Pico device found')
+    return False
 
 """
 TESTING: UART DEVICES DON'T ALWAYS HAVE READABLE DESCRIPTION
@@ -60,13 +59,16 @@ def serial_read(port):
 
 def serial_write(port, packet):
     if port.isOpen():
-        port.reset_output_buffer()
+        #port.reset_input_buffer()
+        #port.reset_output_buffer()
+        sleep(0.5)
         port.write(packet.get_size())
-        sleep(0.1)
+        sleep(0.5)
         port.write(packet.get_type().encode('utf-8'))
-        sleep(0.1)
-        ret = port.write(packet.get_data_as_bytearray())
-        print("Bytearray values written : "+ str(ret))
+        for digit in packet.get_data_as_array():
+            sleep(0.25)
+            port.write(digit.to_bytes(1,'big'))
+        print("Bytearray values written : "+ str(len(packet.get_data_as_array())))
     else:
         raise serial.SerialException("Device disconnected before writing.")
 
@@ -81,7 +83,7 @@ def main():
     parser.add_argument(
         "-p", "--port",
         help="Assign a serial port connection",
-        default=None,
+        default='/dev/ttyUSB0',
         dest="port",
     )
     parser.add_argument(
@@ -91,9 +93,10 @@ def main():
         dest="baud",
     )
     parser.add_argument(
-        "-r", "--rpm",
-        help="Set RPM speed",
-        dest="rpm",
+        "-d", "--duty",
+        help="Set duty speed speed",
+        dest="duty",
+        type=int,
     )
     experimental.add_argument(
         "--bytesize",
@@ -115,15 +118,17 @@ def main():
         help="EXPERIMENTAL | Sets timeout",
         dest="timeout",
     )
-    #opens the port
-    #TODO: add serial path as argparse, add optional baud rate parse, etc.
-    serial_port = init_serial(port='/dev/ttyUSB0')
+    #Opens the port
     args = parser.parse_args(argv[1:])
-    outgoingPacket = PicoPacket(len(args.rpm) ,'r', int(args.rpm))
+    if(not pico_connected()):
+        exit()
+    serial_port = init_serial(args.port)
+
+    #Creates outgoing packet
+    outgoingPacket = PicoPacket(len(str(abs(args.duty))) ,'r', abs(args.duty))
     serial_write(serial_port, outgoingPacket)
-    serial_read(serial_port)
-    sleep(0.5)                      #For readability reasons
     print("Finished sending")
+    serial_read(serial_port)
 
 if __name__ == "__main__":
     main()

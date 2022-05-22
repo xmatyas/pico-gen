@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/pico/code/oled/c/lib/Config
+# Install script for directory: /home/crypt/pico/pico-gen/oled/c/lib/Config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

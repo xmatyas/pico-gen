@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/pico/code/oled/c
+# Install script for directory: /home/crypt/pico/pico-gen/oled/c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pi/pico/code/oled/c/build/pico-sdk/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/Config/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/Infrared/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/OLED/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/Icm20948/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/LCD/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/Fonts/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/lib/GUI/cmake_install.cmake")
-  include("/home/pi/pico/code/oled/c/build/examples/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/pico-sdk/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/Config/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/Infrared/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/OLED/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/Icm20948/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/LCD/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/Fonts/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/lib/GUI/cmake_install.cmake")
+  include("/home/crypt/pico/pico-gen/oled/c/build/examples/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/pico/code/oled/c/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/crypt/pico/pico-gen/oled/c/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

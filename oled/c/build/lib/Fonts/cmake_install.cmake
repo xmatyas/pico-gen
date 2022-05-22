@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/pico/code/oled/c/lib/Fonts
+# Install script for directory: /home/crypt/pico/pico-gen/oled/c/lib/Fonts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
